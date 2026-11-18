@@ -1,6 +1,6 @@
 # Sajad
 
-**Software Engineer · Backend Systems**
+**Software Engineer**
 
 I build backend services: data ingestion, retrieval, event delivery, authentication, and the web interfaces on top of them.
 
