@@ -1,16 +1,14 @@
 # Sajad
 
-Software engineer. Backend systems, AI products, and the occasional security tool.
+Software engineer. Backend operations, AI products, and small security tools.
 
-Python · FastAPI · PostgreSQL · Redis · Celery · TypeScript · Next.js
+Python · FastAPI · PostgreSQL · Redis · TypeScript
 
 ## Work
 
-- [Lexora](https://github.com/sajadxdp0/lexora-ai) — document retrieval with citations
+- [Lexora](https://github.com/sajadxdp0/lexora-ai) — document Q&A with cited sources
 - [EsenceLab](https://github.com/sajadxdp0/esencelab) — AI hiring platform
-- [HookFlow](https://github.com/sajadxdp0/hookflow) — webhook delivery that survives failure
-- [neuDB](https://github.com/sajadxdp0/neudb) — embedded Python database with semantic search
+- [HookFlow](https://github.com/sajadxdp0/hookflow) — webhook delivery
+- [neuDB](https://github.com/sajadxdp0/neudb) — embedded JSON database
 
-## Elsewhere
-
-[Portfolio](https://sajadxdp.github.io/) · [LinkedIn](https://linkedin.com/in/abdullasajad) · [Email](mailto:abdullasajad01@gmail.com)
+[Site](https://sajadxdp0.github.io/) · [LinkedIn](https://linkedin.com/in/abdullasajad) · [Email](mailto:abdullasajad01@gmail.com)
