@@ -1,16 +1,21 @@
 # Sajad
 
-Software engineer focused on backend operations and AI products. I build the services, data pipelines, and small tools that make products work in production.
+**Software Engineer · Backend Operations & AI Products**
 
-Python · FastAPI · PostgreSQL · Redis · Celery · TypeScript · Next.js
+I build the services that sit underneath AI features: ingestion workers, retrieval layers, auth and access control, event delivery, and the interfaces on top of them. Most of my time goes into the unglamorous parts—making a queue recover cleanly from a crashed worker, keeping vector indexes isolated per tenant, or writing a deterministic fallback so a product still works when an LLM API is down.
 
-## Work
+**Core** · Python, FastAPI, PostgreSQL, Redis, Celery, SQLAlchemy, Pydantic, Docker
+**AI & retrieval** · embeddings, FAISS, LangChain, OpenAI, retrieval caching, SSE streaming
+**Product & web** · TypeScript, Next.js, React, Express, Tailwind CSS
+**Operations** · GitHub Actions, Alembic, Prometheus metrics, structured logging, JWT/RBAC
 
-- [Lexora](https://github.com/sajadxdp0/lexora-ai) — document Q&A with cited sources and streaming answers
-- [EsenceLab](https://github.com/sajadxdp0/esencelab) — resume parsing, skill matching, recruiter shortlists
-- [HookFlow](https://github.com/sajadxdp0/hookflow) — webhook delivery with retries and a dead-letter queue
-- [neuDB](https://github.com/sajadxdp0/neudb) — embedded JSON database with semantic search
+## Selected work
 
-## Elsewhere
+- **[Lexora](https://github.com/sajadxdp0/lexora-ai)** — Document Q&A backend with cited sources. Validated uploads, Celery ingestion, per-user FAISS vector isolation, Redis retrieval cache, and answers streamed over SSE.
+- **[HookFlow](https://github.com/sajadxdp0/hookflow)** — Persist-first webhook delivery. Events commit before any dispatch attempt, workers claim rows with expiring leases, payloads are HMAC-signed, and failed deliveries land in a replayable dead-letter queue.
+- **[EsenceLab](https://github.com/sajadxdp0/esencelab)** — Multi-service hiring platform across a Next.js frontend, an Express API with RBAC, and a FastAPI resume parser and job matcher with deterministic scoring and an optional LLM assist.
+- **[neuDB](https://github.com/sajadxdp0/neudb)** — Zero-dependency embedded database in pure Python. One human-readable JSON file per table, crash-atomic writes (`temp` + `fsync` + `os.replace`), and brute-force text and cosine search.
 
-[Portfolio](https://sajadxdp0.github.io/) · [LinkedIn](https://linkedin.com/in/abdullasajad) · [Email](mailto:abdullasajad01@gmail.com)
+## Links
+
+[Portfolio](https://sajadxdp0.github.io/) · [LinkedIn](https://linkedin.com/in/abdullasajad) · [abdullasajad01@gmail.com](mailto:abdullasajad01@gmail.com)
