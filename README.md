@@ -2,7 +2,7 @@
 
 **Software Engineer**
 
-I build cool things with code — services that take data in, keep it safe, and move it where it needs to go.
+I build cool things with code.
 
 Python · FastAPI · PostgreSQL · Redis · Celery · TypeScript · Next.js
 
